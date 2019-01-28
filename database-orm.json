@@ -31,7 +31,7 @@
 	
 				} */
 			] ,
-			"constraints" : [ 
+			"constraints" : {
 				
 				"foreign_key" : "col_ref" ,				
 				"refences" : [
@@ -41,7 +41,7 @@
 					}
 				] ,
 				"isInnoDbEngine" : "true_false" 
-			]
+			}
 			
 		}
 	]
