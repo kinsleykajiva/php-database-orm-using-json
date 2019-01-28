@@ -31,7 +31,7 @@
 	
 				} */
 			] ,
-			"constraints" : [ typeengine type
+			"constraints" : [ 
 				
 				"foreign_key" : "col_ref" ,				
 				"refences" : [
@@ -40,7 +40,7 @@
 						"column_key_name" : "col_name"
 					}
 				] ,
-				"isInnoDbEngine" : "true_false" , 
+				"isInnoDbEngine" : "true_false" 
 			]
 			
 		}
