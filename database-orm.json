@@ -1,0 +1,48 @@
+{
+	"database" : "database_name" ,
+	"users" : [
+		{
+			"user" : "root" , 
+			"password" : ""
+		},
+		{
+			"user" : "root_1" ,
+			"password" : "qwerty"
+		} 
+	] ,
+	"user" : "root",
+	"password" :"",
+	"orm_enable" : "true" ,
+	"table-schema": [
+		{
+			"name":"tabe_name" ,
+			"columns" :	[
+				{
+					"name" : "col_1" , 
+					"type" : "type_int_varchar_text" ,
+					"isRequired" : "true_false" ,
+					"size" : "default" ,
+					"isPrimaryKey" : "true_false" , 
+					"isAutoPrimary" : "true_false" 	,
+					"isUnique" : "true_false" ,
+					"isIndex" : "true_false"		
+				} 
+				/* , more {
+	
+				} */
+			] ,
+			"constraints" : [ typeengine type
+				
+				"foreign_key" : "col_ref" ,				
+				"refences" : [
+					{
+						"table_name" : "table_name" ,
+						"column_key_name" : "col_name"
+					}
+				] ,
+				"isInnoDbEngine" : "true_false" , 
+			]
+			
+		}
+	]
+}
